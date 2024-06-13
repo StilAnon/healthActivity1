@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#040720"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textViewLogPrompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What would you like to log?"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/textViewLogInstruction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="If you can't find the type you want, select other and you can create a custom type"
+            android:textColor="#A8A8A8"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center" />
+
+        <GridLayout
+            android:id="@+id/gridLayoutLogOptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:layout_marginBottom="34dp"
+            android:columnCount="3"
+            android:alignmentMode="alignMargins"
+            android:padding="1dp">
+
+
+            <Button
+                android:id="@+id/appointment_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:text="Appointment"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:drawablePadding="8dp"
+                android:backgroundTint="#728FCE" />
+
+            <Button
+                android:id="@+id/bath_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:text="Bath"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:drawablePadding="8dp"
+                android:backgroundTint="#728FCE"/>
+
+            <Button
+                android:id="@+id/behaviour_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:text="Behaviour"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:drawablePadding="8dp"
+                android:backgroundTint="#728FCE"/>
+
+            <Button
+                android:id="@+id/diary_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:text="Diary"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:drawablePadding="8dp"
+                android:backgroundTint="#728FCE"/>
+
+            <Button
+                android:id="@+id/exercise_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:text="Exercise"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:drawablePadding="8dp"
+                android:backgroundTint="#728FCE"/>
+
+
+
+            <Button
+                android:id="@+id/flea_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:text="Flea"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:drawablePadding="8dp"
+                android:backgroundTint="#728FCE"/>
+
+
+
+            <Button
+                android:id="@+id/grooming_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:text="Grooming"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:drawablePadding="8dp"
+                android:backgroundTint="#728FCE"/>
+
+
+            <Button
+                android:id="@+id/medication_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:text="Medication"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:drawablePadding="8dp"
+                android:backgroundTint="#728FCE"/>
+
+
+            <Button
+                android:id="@+id/nails_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:text="Nails"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:drawablePadding="8dp"
+                android:backgroundTint="#728FCE"/>
+
+            <Button
+                android:id="@+id/scar_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:text="Scar"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:drawablePadding="8dp"
+                android:backgroundTint="#728FCE"/>
+
+
+            <Button
+                android:id="@+id/sleep_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:text="Sleep"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:drawablePadding="8dp"
+                android:backgroundTint="#728FCE"/>
+
+
+            <Button
+                android:id="@+id/temperature_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:text="Temperature"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:drawablePadding="8dp"
+                android:backgroundTint="#728FCE"/>
+
+            <Button
+                android:id="@+id/tick_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:text="Tick"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:drawablePadding="8dp"
+                android:backgroundTint="#728FCE"/>
+
+
+            <Button
+                android:id="@+id/vocal_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:text="Vocal"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:drawablePadding="8dp"
+                android:backgroundTint="#728FCE"/>
+
+
+            <Button
+                android:id="@+id/walk_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:text="Walk"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:drawablePadding="8dp"
+                android:backgroundTint="#728FCE"/>
+
+
+            <Button
+                android:id="@+id/other_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:text="Other"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:drawablePadding="8dp"
+                android:backgroundTint="#728FCE"/>
+
+
+        </GridLayout>
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#728FCE"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+
+</ScrollView>
